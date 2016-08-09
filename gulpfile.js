@@ -50,7 +50,6 @@ gulp.task('watch', function () {
 });
 
 gulp.task('default', [
-    'watch', 
     'build-ts', 
     'build-copy', 
     'vendor'
